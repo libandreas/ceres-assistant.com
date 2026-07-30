@@ -1,0 +1,9 @@
+
+# Keep the repository private by default.
+*
+
+# Public repository files.
+!.gitignore
+!LICENSE
+!README.md
+.skia/
