@@ -1,8 +1,8 @@
-# Ceres Assistant
+# Ceres AI Assistant
 
-**Focused AI assistance for the code in front of you.**
+**Your personal AI companion, wherever you work.**
 
-Ceres assistant is an AI sidebar for VS Code that helps with code, files, errors, terminal output, Git changes, and debugging work.
+Ceres AI Assistant is a personal AI companion for work, ideas, and everyday tasks, available in VS Code and the browser. It fits naturally into your workflow, keeps you in control, and brings AI closer to the tools you use every day.
 
 It is built for developers who want AI nearby, not AI taking over. Instead of turning every request into a full autonomous run, Ceres keeps the workflow explicit: ask questions, get context-aware suggestions, it is that simple.
 
