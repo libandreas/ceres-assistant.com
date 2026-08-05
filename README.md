@@ -6,7 +6,7 @@ Ceres assistant is an AI sidebar for VS Code that helps with code, files, errors
 
 It is built for developers who want AI nearby, not AI taking over. Instead of turning every request into a full autonomous run, Ceres keeps the workflow explicit: ask questions, get context-aware suggestions, it is that simple.
 
-![Ceres IDE screenshot](https://ceres-assistant.com/screenshots-new/2026-05-26_17-00-29.webp)
+![Ceres IDE screenshot](https://ceres-assistant.com/screenshots-new/2026-08-03_00-00-00.webp)
 
 ## Why Ceres?
 
@@ -47,16 +47,16 @@ Ceres is strongest when you already know the area you want to work on and want f
 ## Features
 
 - **AI sidebar inside VS Code**: Chat with AI without leaving the editor.
-- **Add selected code to chat**: Send only the code selection you care about.
-- **Add files from editor or explorer**: Attach a file when the assistant needs broader context.
+- **Add selected code or files to chat**: Send only the code selection or file you care about.
+- **Custom prompts**: Use your own prompts for inline buttons or chat shortcuts.
 - **Active file context**: Ask from the file currently open in the editor.
 - **Workspace Problems**: Send diagnostics and errors from VS Code Problems.
 - **Git worktree review**: Read current staged and unstaged changes.
 - **Incoming Git overview**: Inspect incoming commits and diffs before pulling.
 - **Git history context**: Review recent commits and repository history.
-- **Terminal activity**: Use recent shell-integrated terminal commands and output as context.
+- **Terminal access**: Use shell-integrated terminal commands and output as context.
 - **Debugging help**: Use Ceres to reason through errors, broken flows, and problem areas in your code.
-- **Voice input**: Dictate prompts and commands when typing is slower.
+- **Voice input**: Dictate prompts or speak code changes directly on selected code.
 - **Use suggestions manually**: Review suggestions first, then choose whether to insert or replace text in the active editor.
 - **Run terminal suggestions**: Send supported command suggestions to a VS Code terminal.
 - **Custom providers and local models**: Use OpenAI-compatible endpoints, OpenRouter, DeepSeek, Ollama, LM Studio, and other compatible providers.
@@ -122,9 +122,11 @@ Use the Ceres action on an error or warning to send the diagnostic and nearby co
 
 Ask Ceres to inspect incoming Git changes before merging them into your working tree.
 
-### Use Speech Recognition
+### Edit code with Voice
 
-Talk to Ceres instead of typing every prompt. Speech recognition helps you describe code changes, debugging notes, and follow-up questions while staying in the flow.
+Select a code block and describe the change. Ceres rewrites the selected code as you speak.
+
+also you can use speech recognition instead of typing every prompt. Speech recognition helps you describe code changes, debugging notes, and follow-up questions while staying in the flow.
 
 ![Speech recognition in vscode](https://ceres-assistant.com/screenshots-new/2026-05-26_17-17-19.webp)
 
